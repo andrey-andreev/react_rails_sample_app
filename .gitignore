@@ -23,4 +23,6 @@
 .byebug_history
 
 # Ignore RubyMine project configuration
-.idea/*
+.idea/*/public/packs
+/public/packs-test
+/node_modules
