@@ -40,7 +40,7 @@ Add the following tags into <project_dir>/app/views/layouts/welcome/index.html.e
 <%= react_component 'Post', { title: 'A working react component', body: 'Simple but effective' }, prerender: true %>
 ```
 
-Now you can see your component is in welcome/index
+Now run `rails s` and navigate to <a href="http://localhost:3000/welcome/index" target="_blank">http://localhost:3000/welcome/index</a>  and you have to see your component.
 
 
 
