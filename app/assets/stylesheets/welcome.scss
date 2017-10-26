@@ -1,3 +1,17 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Fonts
+@font-face {
+  font-family: 'OpenSans';
+  src: font-url('OpenSans-CondensedLight.eot');
+  src: font-url('OpenSans-CondensedLight.eot?#iefix') format('embedded-opentype'),
+       font-url('OpenSans-CondensedLight.ttf') format('truetype'),
+       font-url('OpenSans-CondensedLight.woff') format('woff'),
+       font-url('OpenSans-CondensedLight.svg#icofonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
