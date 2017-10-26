@@ -24,6 +24,7 @@
 
 # Ignore RubyMine project configuration
 .idea/*/public/packs
-/public/packs-test
-/node_modules
 .idea/*
+/public/packs-test
+/public/packs/*
+/node_modules
