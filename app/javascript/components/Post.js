@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+var React = require("react")
+var PropTypes = require("prop-types")
 
 const PostStyles = {
   fontFamily: "OpenSans",
@@ -20,8 +20,8 @@ class Post extends React.Component {
 }
 
 Post.propTypes = {
-  imagePath: PropTypes.node,
-  title: PropTypes.node,
-  body: PropTypes.node
+  imagePath: PropTypes.String,
+  title: PropTypes.String,
+  body: PropTypes.String
 };
-export default Post
+module.exports = Post
