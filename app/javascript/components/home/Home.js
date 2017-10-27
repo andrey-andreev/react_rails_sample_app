@@ -1,24 +1,26 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const PostStyles = {
+const HomeStyles = {
   fontFamily: "OpenSans",
-  textAlign: "center"
+  textAlign: "center",
+  padding: "25px",
+  border: "1px solid black"
 }
 
 class Home extends React.Component {
   render () {
     return (
-      <div style={PostStyles}>
-        <div>Title: {this.props.title}</div>
+      <div style={HomeStyles}>
+        <h1>{this.props.title}</h1>
       </div>
     );
   }
 }
 
-Post.propTypes = {
+Home.propTypes = {
   title: PropTypes.node,
 };
 
-export default Post
+export default Home
 

@@ -1,5 +1,8 @@
 <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
 
+<%= link_to "Go to home view", controller: "home" %>
+<br><br>
+
 <%= javascript_pack_tag 'welcome' %>
-<%= react_component 'Post', { title: 'A working react component', body: 'Simple but effective', imagePath: image_path('powpow.jpg') } %>
+<%= react_component 'Welcome', { title: 'A working react component', body: 'Simple but effective', imagePath: image_path('powpow.jpg') } %>
